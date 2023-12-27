@@ -9,5 +9,5 @@ function renderEmail() {
 renderEmail()
 
 dismissBtn.addEventListener('click', function() {
-    window.location.href = 'https://github.com/Vronx93/Newsletter-SignUp-form---frontendmentor/blob/main/index.html'
+    window.location.href = 'https://github.io/Vronx93/Newsletter-SignUp-form---frontendmentor/blob/main/index.html'
 })
