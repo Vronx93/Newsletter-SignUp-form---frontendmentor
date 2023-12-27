@@ -15,10 +15,9 @@ const emailValueTrim = emailValue.trim()
 if (validateEmail(emailValueTrim)) {
     localStorage.setItem('email-value', emailValue)
     invalidEmailMsg.classList.add('hidden')
-    window.location.href = '/Newsletter-SignUp-form---frontendmentor/success-msg.html'
+    window.location.href = 'https://github.com/Vronx93/Newsletter-SignUp-form---frontendmentor/success-msg.html'
     } else {
     invalidEmailMsg.classList.remove('hidden')
 }
 })
-
 
